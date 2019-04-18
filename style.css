@@ -1,0 +1,79 @@
+html{
+    background: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #ffffff;
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    margin: 150px auto 40px auto;
+    text-shadow: 0px 0px 2px #111111;
+    color: red;
+    font-size: 30px;
+}
+
+h5{
+    text-align: center; 
+    font-size: 18px;
+    margin: 10px;
+}
+
+i{
+    font-size: 24px;
+    margin: 5px 0px;
+    color: #737373;
+    font-size:20px;
+    text-shadow: 0px 0px 1px #111111;
+}
+
+.blok-info{
+    background: #f7f7f7;
+    width: 350px;
+    display: table;
+    padding: 10px;
+    margin: 10px auto;
+    position: relative;
+    border: 7px solid #dcdcdc;
+    border-radius: 11px;
+    box-shadow: 0px 0px 4px #717171;
+}
+
+.blok{
+    width: 200px;
+    height: 35px;
+    margin: 5px auto;
+    border: 1px solid #c1c1c1;
+    border-radius: 7px;
+}
+
+.blok-info-icon{
+    width: 30px;
+    height: 35px;
+    padding: 2px 0px;
+    margin: 0px 5px 0px 5px;
+    float: left;
+}
+
+.blok-info-text{
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px 0px;
+    margin: 0px 5px 0px 2px;
+    float: right;
+}
+
+.blok-info-text p{
+    margin: 0px;
+}
