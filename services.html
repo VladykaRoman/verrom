@@ -19,7 +19,7 @@
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
     <style>
         .wrap_body{
-            grid-template-rows: 50px 100px auto 150px 90px;
+            grid-template-rows: 50px 100px auto auto 120px;
             grid-template-areas: 'header'
                                 'nav'
                                 'article'
@@ -28,7 +28,7 @@
         }
         @media screen and (max-width: 1280px) {
             .wrap_body{
-                grid-template-rows: 90px 100px auto 190px 90px;
+                grid-template-rows: 90px 100px auto auto 120px;
             }
         }
     </style>
@@ -50,7 +50,7 @@
         <nav class="nav">
             <div class="menu_wrap">
                 <div class="logo">
-                    <img src="./img/logo.jpg" alt="VerRom Limited" onclick="window.location.hef = '/'">
+                    <img src="./img/verrom_logo_png.png" alt="VerRom Limited" onclick="window.location.href = './index.html'">
                 </div>
                 <ul class="menu">
                     <li><a href="./index.html">Home</a></li>
@@ -80,22 +80,34 @@
             </div>
         </article>
         <section class="section_bottom">
-            <div class="section_bottom_wrap">
-                <ul class="section_bottom_list">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./about.html">About Us</a></li>
-                    <li><a href="./services.html">Services</a></li>
-                    <li><a href="./projects.html">Our Projects</a></li>
-                    <li><a href="./clients.html">Clients Say</a></li>
-                    <li><a href="./contacts.html">Contact Us</a></li>
-                </ul>
-                <div class="social_media">
-                    <a href="https://www.facebook.com/R.Vladyka" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                    <a href="https://www.instagram.com/verrom_limited/?hl=uk" target="_blank"><i class="fab fa-instagram"></i></a>
+            <div class="section_bottom_contact">
+                <div class="bottom_contact">
+                    <img src="./img/verrom_logo_png.png" alt="LOGO" class="section_bottom_logo">
+                    <p><i class="fas fa-map-marker-alt"></i> London, England </p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+447738683074"> +44 773 868 3074</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:info@verromltd.co.uk"> info@verromltd.co.uk</a></p>
+                    <div class="social_media">
+                        <a href="https://www.facebook.com/R.Vladyka" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/verrom_limited/?hl=uk" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="bottom_text">
+                    <p>We are proud to support domestic homeowners, commercial businesses, and local authority clients with a comprehensive range of electrical services.</p>
+                </div>
+                <div class="bottom_map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19897.48697313867!2d-0.24168068750000002!3d51.52855815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761cb4b5e6f3b5%3A0x7d8b5e8e8e8e8e8e!2sLondon%2C%20UK!5e0!3m2!1sen!2sus!4v1616161616161!5m2!1sen!2sus" width="100%" height="100%" allowfullscreen="" loading="lazy" class="map_frame"></iframe>
                 </div>
             </div>
         </section>
         <footer class="footer">
+            <ul class="footer_list">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./projects.html">Our Projects</a></li>
+                <li><a href="./clients.html">Clients Say</a></li>
+                <li><a href="./contacts.html">Contact Us</a></li>
+            </ul>
             <p>&copy; 2026 VERROM Limited. All rights reserved.</p>
         </footer>
     </div>
