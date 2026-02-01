@@ -208,10 +208,20 @@ a{
     max-width: 330px;
     width: 100%;
     margin: 50px 0px;
+    line-height: 2em;
+}
+
+.about{
+    max-width: 100%;
 }
 
 .article_contact > h3{
     font-size: 45px;
+    color: #303442;
+}
+
+.article_contact > h4{
+    font-size: 18px;
     color: #303442;
 }
 
@@ -221,6 +231,13 @@ a{
     font-size: 16px;
     font-weight: bold;
     color: #303442;
+}
+
+.article_contact > ul{
+    font-size: 16px;
+    font-weight: bold;
+    color: #303442;
+    line-height: 2em;
 }
 
 .article_contact > p > i{
@@ -489,7 +506,7 @@ a{
 
 .text {
     color: #ffffff;
-    font-size: 45px;
+    font-size: 60px;
     position: absolute;
     bottom: 0px;
     width: 100%;
@@ -502,7 +519,7 @@ a{
 }
 
 .text p:first-child{
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .numbertext {

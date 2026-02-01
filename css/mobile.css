@@ -1,5 +1,5 @@
 .wrap_body{
-    grid-template-rows: 90px 100px auto auto 190px 90px;
+    grid-template-rows: 90px 100px auto auto auto auto;
 }
 
 .header_info, .header_phone{
@@ -24,4 +24,27 @@
 
 .menu{
     display: none;
+}
+
+.section_bottom_contact {
+    flex-direction: column;
+}
+
+.section_bottom_contact > div:first-child {
+    width: 100%;
+    border-bottom: 1px solid #bbbdc3;
+}
+
+.section_bottom_contact > div {
+    width: 100%;
+    border-bottom: 1px solid #bbbdc3;
+}
+
+.section_bottom_contact > div:last-child {
+    border-bottom: 0px solid #bbbdc3;
+    padding-top: 50px;
+}
+
+.section_bottom_contact .map_frame {
+    min-height: 350px;
 }
