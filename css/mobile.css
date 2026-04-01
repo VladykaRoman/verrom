@@ -1,5 +1,5 @@
 .wrap_body{
-    grid-template-rows: 90px 100px auto auto auto auto;
+    grid-template-rows: 120px 100px auto auto auto auto;
 }
 
 .header_info, .header_phone{
@@ -47,4 +47,30 @@
 
 .section_bottom_contact .map_frame {
     min-height: 350px;
+}
+
+.emblem_wrap{
+    justify-content: space-around;
+}
+
+.emblem_wrap a {
+    width: 40%;
+    margin: 15px;
+}
+
+.slideShow_mobile{
+    display: block;
+}
+
+.slideShow_desctop{
+    display: none;
+}
+
+.text {
+    font-size: 26px;
+}
+
+.text p:first-child{
+    max-width: 90%;
+    font-size: 20px;
 }

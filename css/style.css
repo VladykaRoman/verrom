@@ -204,28 +204,53 @@ a{
     justify-content: center;
 }
 
-.article_contact{
-    max-width: 330px;
+.about, .services, .projects, .clients, .contacts, .pricing, .home{
     width: 100%;
+    max-width: 100%;
+    padding-bottom: 40px;
+}
+
+.pricing h2{
+    color: #303442;
+    margin-bottom: 1px;
+    text-align: left;
+}
+
+.pricing .pricing_title_info{
+    color: #7f8495;
+    text-align: left;
+}
+
+.home > h3{
+    text-align: center;
+}
+
+.contacts{
     margin: 50px 0px;
     line-height: 2em;
+    position: relative;
 }
 
-.about{
-    max-width: 100%;
+.contact_icon{
+    position: absolute;
+    width: 45%;
+    right: 0;
+    bottom: 110px;
 }
 
-.article_contact > h3{
-    font-size: 45px;
+.article_body > h3{
+    font-size: 35px;
     color: #303442;
+    border-bottom: 4px solid;
+    padding-bottom: 10px;
 }
 
-.article_contact > h4{
+.article_body > h4{
     font-size: 18px;
     color: #303442;
 }
 
-.article_contact > p{
+.article_body > p{
     margin: 0px;
     padding: 12px 0px;
     font-size: 16px;
@@ -233,19 +258,19 @@ a{
     color: #303442;
 }
 
-.article_contact > ul{
+.article_body > ul{
     font-size: 16px;
     font-weight: bold;
     color: #303442;
     line-height: 2em;
 }
 
-.article_contact > p > i{
+.article_body > p > i{
     margin-right: 9px;
     color: #da273c;
 }
 
-.article_contact > p > a{
+.article_body > p > a{
     margin: 0px;
     padding: 6px 0px;
     font-size: 16px;
@@ -254,27 +279,23 @@ a{
     color: #303442;
 }
 
-.article_contact > p > a:hover{
+.article_body > p > a:hover{
     color: #da273c;
 }
 
-.article_contact > .social_media{
+.article_body > .social_media{
     margin: 60px 0px 0px 0px;
     justify-content: center;
 }
 
-.article_contact > .social_media > a{
+.article_body > .social_media > a{
     color: #303442;
     font-size: 65px;
     margin: 10px 20px;
 }
 
-.article_contact > .social_media > a:hover{
+.article_body > .social_media > a:hover{
     color: #da273c;
-}
-
-.article h2{
-    text-align: center;
 }
 
 
@@ -292,6 +313,7 @@ a{
     width: 20%;
     border: 5px solid #303442;
     border-radius: 10px;
+    padding: 1%;
 }
 
 .emblem_wrap a:hover{
@@ -506,7 +528,7 @@ a{
 
 .text {
     color: #ffffff;
-    font-size: 60px;
+    font-size: 45px;
     position: absolute;
     bottom: 0px;
     width: 100%;
@@ -516,10 +538,35 @@ a{
     flex-direction: column;
     text-align: center;
     align-items: center;
+
+    font-weight: bold;
+    text-shadow:
+                -2px -2px 0 #303442,
+                2px -2px 0 #303442,
+                -2px 2px 0 #303442,
+                2px 2px 0 #303442,
+                -3px 0px 0 #303442,
+                3px 0px 0 #303442,
+                0px -3px 0 #303442,
+                0px 3px 0 #303442;
+}
+
+.text p{
+    max-width: 600px;
 }
 
 .text p:first-child{
-    font-size: 35px;
+    max-width: 900px;
+    font-size: 30px;
+}
+
+
+.slideShow_mobile{
+    display: none;
+}
+
+.slideShow_desctop{
+    display: block;
 }
 
 .numbertext {

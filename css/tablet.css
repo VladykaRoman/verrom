@@ -48,3 +48,11 @@
 .section_bottom_contact .map_frame {
     min-height: 350px;
 }
+
+.text {
+    font-size: 35px;
+}
+
+.text p:first-child{
+    font-size: 20px;
+}
