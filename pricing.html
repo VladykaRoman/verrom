@@ -9,32 +9,15 @@
     <meta name="Copyright" content="">
     <meta name="description" content="">
     <meta name="keywords" content="">
-
     <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
     <link rel="stylesheet" type="text/css" href="./css/style.css">
     <link rel="stylesheet" type="text/css" media="(min-width:991px) and (max-width:1280px)" href="./css/tablet.css">
     <link rel="stylesheet" type="text/css" media="(max-width:991px)" href="./css/mobile.css">
-
     <title>VERROM Limited </title>
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
-    <style>
-        .wrap_body{
-            grid-template-rows: 50px 100px auto auto 120px;
-            grid-template-areas: 'header'
-                                'nav'
-                                'article'
-                                'section_bottom'
-                                'footer';
-        }
-        @media screen and (max-width: 1280px) {
-            .wrap_body{
-                grid-template-rows: 120px 100px auto auto auto;
-            }
-        }
-    </style>
 </head>
 <body>
-    <div class="wrap_body">
+    <div id="navbar" class="wrap_body">
         <header class="header">
             <div class="header_wrap">
                 <div class="header_info">
@@ -53,13 +36,33 @@
                     <img src="./img/verrom_logo_png.png" alt="VerRom Limited" onclick="window.location.href = './index.html'">
                 </div>
                 <ul class="menu">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./about.html">About Us</a></li>
-                    <li><a href="./services.html">Services</a></li>
-                    <li><a href="./pricing.html">Pricing</a></li>
-                    <li><a href="./projects.html">Our Projects</a></li>
-                    <li><a href="./clients.html">Clients Say</a></li>
-                    <li><a href="./contacts.html">Contact Us</a></li>
+                    <li>
+                        <img src="./img/flash_menu.png" alt="" class="flash">
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
+                        <img src="./img/flash_menu.png" alt="" class="flash">
+                        <a href="./about.html">About Us</a>
+                    </li>
+                    <li>
+                        <img src="./img/flash_menu.png" alt="" class="flash">
+                        <a href="./services.html">Services</a>
+                    </li>
+                    <li>
+                        <img src="./img/flash_menu.png" alt="" class="flash">
+                        <a href="./pricing.html">Pricing</a>
+                    </li>
+                    <li>
+                        <img src="./img/flash_menu.png" alt="" class="flash">
+                        <a href="./projects.html">Our Projects</a>
+                    </li>
+                    <li>
+                        <img src="./img/flash_menu.png" alt="" class="flash">
+                        <a href="./clients.html">Clients Say</a>
+                    </li>
+                    <li>
+                        <a href="./contacts.html">Contact Us</a>
+                    </li>
                 </ul>
                 <span class="mobile_menu" onclick="openNav()"><i class='fas fa-align-justify'></i></span>
             </div>
@@ -142,8 +145,15 @@
             <p>&copy; 2026 VERROM Limited. All rights reserved.</p>
         </footer>
     </div>
-
-
-
     <script src="./js/js.js"></script>
+    <script>
+        window.onscroll = function() {
+            const nav = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        }
+    </script>
 </body>
