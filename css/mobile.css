@@ -1,5 +1,5 @@
 .wrap_body{
-    grid-template-rows: 120px 100px auto auto auto auto;
+    grid-template-rows: 120px 70px auto auto auto auto;
 }
 
 .header_info, .header_phone{
@@ -74,3 +74,17 @@
     max-width: 90%;
     font-size: 20px;
 }
+
+.menu_wrap {
+    transition: 0s;
+    padding: 7px 0px;
+}
+
+.logo img {
+    transition: 0s;
+    height: 56px;
+    padding: 2px;
+    border: 2px solid #303442;
+    margin-top: -1px;
+}
+
